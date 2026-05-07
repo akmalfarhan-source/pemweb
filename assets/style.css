@@ -207,9 +207,17 @@ th[colspan="4"] {
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 /* Features Section */
@@ -268,7 +276,7 @@ th[colspan="4"] {
         text-align: center;
         padding-top: 4rem;
     }
-    
+
     .hero-buttons {
         justify-content: center;
     }
